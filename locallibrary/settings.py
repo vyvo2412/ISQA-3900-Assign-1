@@ -121,8 +121,8 @@ USE_TZ = True
 LOGIN_REDIRECT_URL = '/'
 
 
-# Add to test email:
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+# Add to test email
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'vyvo.tk@gmail.com'
 EMAIL_HOST_PASSWORD = '01299515669Han$'
